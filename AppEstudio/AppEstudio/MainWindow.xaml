@@ -1,0 +1,15 @@
+﻿<Window x:Class="AppEstudio.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppEstudio"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" Closing="Window_Closing">
+    <Grid>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="76" Margin="102,87,0,0" TextWrapping="Wrap" Text="#bbb" VerticalAlignment="Top" Width="182"/>
+        <Button x:Name="button" Content="Atualizar" HorizontalAlignment="Left" Margin="102,168,0,0" VerticalAlignment="Top" Width="99" Height="37" Click="button_Click"/>
+        <Label x:Name="label" Content="Escreva a Hashtag desejada:" HorizontalAlignment="Left" Margin="102,30,0,0" VerticalAlignment="Top" Height="28" Width="182"/>
+
+    </Grid>
+</Window>
